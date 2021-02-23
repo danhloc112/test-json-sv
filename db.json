@@ -1,24 +1,14 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "title": "Goodbye",
-      "author": "Loctran",
-      "id": 3
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "booking": [
+        {
+            "name": "Loc Tran",
+            "phone": "0339510369",
+            "car": ["Mercedes", "C200", "2010"],
+            "date": {
+                "start": "today",
+                "end": "tomorrow"
+            },
+            "id": 1
+        }
+    ]
 }
